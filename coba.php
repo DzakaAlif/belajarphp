@@ -14,10 +14,10 @@
 if($a > $b && $c){
     echo "Yang terbesar adalah " . $a;
     echo "<br/>";
-}if($b > $c && $a){
+}elseif($b > $c && $a){
     echo "Yang terbesar adalah " . $b;
     echo "<br/>";
-}if($c > $a && $b){
+}elseif($c > $a && $b){
     echo "Yang terbesar adalah " . $c;
     echo "<br/>";
 }
